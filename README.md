@@ -1,0 +1,1 @@
+This HomeyScript monitors specified devices and checks if they've updated any of their capabilities within a defined period. If any device hasn't updated within that time, it sends a notification. This is particularly useful for critical sensors that need constant monitoring, such as water heaters, dehumidifiers, or bathroom sensors.
