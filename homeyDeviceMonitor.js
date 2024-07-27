@@ -1,18 +1,19 @@
 /*
- * Homey Device Monitor Script
- * 
+=== Homey Device Monitor Script ===
+ 
  * USER CONFIGURATION:
  * Customize the settings below to match your needs.
- */
+ 
+* This is a script to monitor different unique devices or group of devices.
+* Set the "SHOW_ALL_DEVICES" to true, first time to get a compleate list.
+* Note down the devices you want to monitor and add it to the "DEVICE_IDS_TO_SHOW".
+* If you want to monitor whole group of devices 
+* (example all lights, use the "DEVICE_CLASSES_TO_SHOW" and insert 'light' into the []
+* If there are certain devices you want to exclude from a group, add their ID into the "DEVICE_IDS_TO_IGNORE".
+* After setting it up, remember to set the "SHOW_ALL_DEVICES" to false.
 
-// This is a script to monitor different unique devices or group of devices.
-// Set the "SHOW_ALL_DEVICES" to true, first time to get a compleate list.
-// Note down the devices you want to monitor and add it to the "DEVICE_IDS_TO_SHOW".
-// If you want to monitor whole group of devices (example all lights, use the "DEVICE_CLASSES_TO_SHOW" and insert 'light' into the []
-// If there are certain devices you want to exclude from a group, add their ID into the "DEVICE_IDS_TO_IGNORE".
-// After setting it up, remember to set the "SHOW_ALL_DEVICES" to false.
-
-// Use advance flow to run the script with conditions.
+ Use advance flow to run the script with conditions.
+*/
 
 // Show all devices or filter by class
 // Set to true to show all devices, or false to filter by specific classes (SET IT TO TRUE FRIST TIME - GET THE ID NUMBER AND NOTE DOWN DEVICES YOU WANT TO MONITOR)
