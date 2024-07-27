@@ -20,7 +20,7 @@ const SHOW_ALL_DEVICES = false;
 
 // Specify the device classes you want to monitor
 // Leave the array empty [] to show all classes, or add specific classes like:
-// ['sensor','light', 'other', 'speaker', 'thermostat', 'socket', 'tv', 'blinds', 'remote']
+// ['sensor','light', 'other', 'speaker', 'thermostat', 'socket', 'tv', 'blinds', 'remote']  ALWAYS rember to use "" or '' before each class
 const DEVICE_CLASSES_TO_SHOW = [];
 
 // Maximum time since last update to show (in hours)
@@ -30,15 +30,12 @@ const MAX_TIME_SINCE_UPDATE = 8;
 
 // Device ID Filtering
 // To monitor specific devices, add their IDs to the array below
-// Leave the array empty [] to include all devices
-const DEVICE_IDS_TO_SHOW = [
-  "34349ff39-4445-47c0-9826-9ea13431e4",
-  "5123459-6662-471c-9847-90e33438af60",
-  "5e43341-334f-40e8-9bd3-c1fe6c4f343a0",
-];
+// Example: "34349ff39-4445-47c0-9826-9edfd431e4", "5123459-6662-471c-9847-90e3df38af60", "5e43341-334f-40e8-9bd3-c1dfd64f343a0"
+// Leave the array empty [] to include all devices. ALWAYS rember to use "" or '' before each ID
+const DEVICE_IDS_TO_SHOW = [];
 
 // To ignore specific devices, add their IDs to the array below
-// Leave the array empty [] to include all devices
+// Leave the array empty [] to include all devices. ALWAYS rember to use "" or '' before each ID
 const DEVICE_IDS_TO_IGNORE = [];
 
 /*
